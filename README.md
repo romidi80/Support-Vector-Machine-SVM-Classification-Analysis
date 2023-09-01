@@ -1,2 +1,10 @@
 # Support-Vector-Machine-SVM-Classification-Analysis
 In this GitHub repository, we delve into the nuances of SVM classification, exploring various aspects of its performance.
+Support Vector Machine (SVM) is a powerful classification algorithm that aims to find the optimal hyperplane to separate data points of different classes while maximizing the margin. This project focuses on evaluating the performance of SVM classifiers. It's essential to note that the choice of data splits can significantly impact model accuracy. Even slight variations in the data within the training and testing sets can yield different results. The accuracy on training data is generally higher than on testing data for most models.
+
+We evaluated various SVM models with different kernel functions, including linear, polynomial, RBF, and sigmoid. Each kernel exhibited distinct behavior. Linear kernel had the highest accuracy overall, followed by polynomial, RBF, and sigmoid. In the sigmoid kernel, increasing the parameter c resulted in decreased model accuracy, while in the RBF kernel, the opposite effect was observed. For the polynomial kernel, increasing c, degree, and gamma led to improved accuracy. Notably, the linear kernel outperformed others on both training and testing data. The choice of kernel has a profound impact on the model's performance. Among the tested kernels, the polynomial kernel with c=1000 demonstrated the highest accuracy, while the RBF kernel with c=500 and gamma=0.9 was also competitive. Linear kernel had the best performance with c=1000. In summary, the polynomial kernel with c=1000 achieved the highest accuracy among all models.
+
+## Conclusion
+In conclusion, the SVM classification analysis revealed that the polynomial kernel with c=1000 was the best-performing model, achieving the highest accuracy among all tested models. The choice of kernel, c value, and other hyperparameters significantly impacted model performance. Understanding these nuances is crucial for building effective SVM classifiers.
+
+![image](https://github.com/romidi80/Support-Vector-Machine-SVM-Classification-Analysis/assets/89667194/859db897-3e14-49d3-82de-aaed7888c97d)
