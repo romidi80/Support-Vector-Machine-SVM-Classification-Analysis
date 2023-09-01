@@ -7,4 +7,4 @@ We evaluated various SVM models with different kernel functions, including linea
 ## Conclusion
 In conclusion, the SVM classification analysis revealed that the polynomial kernel with c=1000 was the best-performing model, achieving the highest accuracy among all tested models. The choice of kernel, c value, and other hyperparameters significantly impacted model performance. Understanding these nuances is crucial for building effective SVM classifiers.
 
-![image](https://github.com/romidi80/Support-Vector-Machine-SVM-Classification-Analysis/assets/89667194/859db897-3e14-49d3-82de-aaed7888c97d)
+![image](https://github.com/romidi80/Support-Vector-Machine-SVM-Classification-Analysis/assets/89667194/bf4d5dda-bf0a-411c-8c20-bd403ada2cae)
